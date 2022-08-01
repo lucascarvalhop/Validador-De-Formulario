@@ -21,11 +21,11 @@ Para que o script funcione de forma completa e sem nenhum bug, seu formulário p
 
 Note que o formulário precisará ter a classe "validator" para manipularmos ele no JavaScript. <br>
 O atributo "data-rules" é onde podemos definir nossas regras, pré definidas no exemplo acima ja temos a regra "required", que faz com que os inputs
-que possuem o atributo sejam de obrigatorio preenchimento, e a regra "min=2" que faz com que o input tenha no mínimo 2 caracteres para que seja aceito <br>
+que possuem o atributo sejam de obrigatorio preenchimento, e a regra "min=2" que faz com que o input tenha no mínimo 2 caracteres para que seja aceito. <br>
 Caso você não queira que um determinado campo do formulário seja de obrigatório preenchimento, basta não adicionar o "required" no data-rules. <br>
 ### IMPORTANTE: a sintaxe do atributo data-rules precisa seguir o padrão, onde se é utilizado o simbolo " | " para separar uma regra da outra <br>
 
-Com o seu formulário já adaptado, partiremos para o JavaScript <br>
+Com o seu formulário já adaptado, partiremos para o JavaScript. <br>
 
 Para customizar a validação de acordo com seus critérios, basta alterar algumas linhas de código dentro do script, como por exemplo a mensagem de erro
 que retornará caso o campo não esteja nos critérios de validação <br>
